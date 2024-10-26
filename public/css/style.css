@@ -1565,3 +1565,144 @@ padding-bottom: 100px;
 .banner h1{
     color: #4a0d67;
 }
+/* req section end here  */
+
+
+
+
+
+
+
+
+
+/* footer section start here  */
+.footer {
+    background-color: #3a0d55;
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 20px;
+  }
+  
+  .logo-about .logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .logo-about p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .subscribe {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    flex-grow: 1;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #fca311;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .subscribe button:hover {
+    background-color: #ff9b00;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffffcc;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .contact-info span {
+    color: #fca311;
+    margin-right: 8px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #6c3a9c;
+    margin-top: 30px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffffb3;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+   
+   
+  }
+  .footer-bottom img{
+    height: 180px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      margin: 10px 0;
+    }
+  
+    .subscribe {
+      flex-direction: column;
+    }
+  
+    .subscribe input[type="email"], .subscribe button {
+      width: 100%;
+    }
+  }
