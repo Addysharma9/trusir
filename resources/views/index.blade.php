@@ -24,8 +24,11 @@
     @include('testimonail')
     @include('tutor')
     @include('star')
+    @include('teacher')
+    @include('faq')
+    @include('req')
     <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('js/test.js') }}"></script>
-
+    <script src="{{ asset('js/faq.js') }}"></script>
 </body>
 </html>

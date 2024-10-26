@@ -1288,3 +1288,280 @@ padding-bottom: 100px;
 
 
 /* teacher start here  */
+.class100{
+    width: 100%;
+}
+.section-wrapper {
+    display: flex;
+  justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    width: 90%;;
+    margin: auto;
+}
+
+.text-contentss {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.role-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.highlight-text {
+    color: #8e44ad;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.cta-button {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.profile-image {
+   height: 500px;
+}
+
+.overlay-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    .profile-image {
+        height: 300px;
+     }
+}
+@media (max-width: 768px) {
+    .profile-image {
+        height: 200px;
+     }
+    .section-wrapper {
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+        position: relative;
+        padding: 20px;
+        width: 90%;;
+        margin: auto;
+    }
+    .text-contentss {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .image-wrapper {
+        position: relative;
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        justify-content:flex-end;
+        align-items: center;
+    }
+    
+}
+/* teacher end here  */
+
+
+
+
+
+
+
+
+
+/* faq start here  */
+.per100{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.faq-container {
+    max-width: 90%;
+    display: flex;
+    padding: 20px;
+  }
+  
+  .faq-intro {
+    text-align: left;
+    margin-bottom: 30px;
+    width: 40%;
+  }
+  
+  .faq-intro h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .faq-intro .highlight {
+    color: #6c63ff;
+  }
+  
+  .faq-intro p {
+    margin: 15px 0;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .learn-more-btn {
+    background-color: #4a0d67 ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #5a53e0;
+  }
+  
+  .faq-sections {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   
+  }
+  
+  .faq-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .faq-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .faq-list {
+    list-style: none;
+  }
+  
+  .faq-question {
+    background: none;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .faq-question span {
+    color: #6c63ff;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .faq-answer p {
+    padding: 10px 0;
+  }
+  @media (max-width: 768px) {
+    .faq-container {
+        max-width: 90%;
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+      }
+      .faq-intro {
+        text-align: left;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+      .faq-sections {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+      
+       
+      }
+      .faq-card{
+        width: 100%;
+      }
+  }
+  /* faq section end here  */
+
+
+
+
+
+
+
+
+
+
+
+
+  /* requirment section start here  */
+  .req100{
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;  
+}
+.banner{
+    width: 1200px;
+    height: 370px;
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url('../images/banner.png');
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner h1{
+    color: #4a0d67;
+}
