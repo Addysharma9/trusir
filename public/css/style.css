@@ -1039,3 +1039,46 @@ padding-bottom: 100px;
     
     }
 }
+/* Tutor ends here  */
+
+
+
+
+
+
+
+
+
+/* star start from here  */
+.star-100{
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.star-90{
+    width: 90%;
+  
+   
+}
+.foty-forty{
+    width: 100%;
+    display: flex;
+
+    
+}
+.forty{
+    width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.forty1 {
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.teacher{
+    width: 100%;
+}

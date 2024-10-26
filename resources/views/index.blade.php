@@ -23,6 +23,7 @@
     @include('why')
     @include('testimonail')
     @include('tutor')
+    @include('star')
     <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('js/test.js') }}"></script>
 
