@@ -778,6 +778,7 @@ font-size: 1rem;
     font-family: Poppins;
     display: flex;
 flex-direction: column;
+padding-bottom: 100px;
     gap: 20px;
     justify-content: space-between;
 
@@ -947,55 +948,94 @@ flex-direction: column;
 
 
 /* tutor section start here  */
-.how-it-works-section {
+.test-100-work{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.per90{
+    width: 90%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    
+}
+.per90-img{
+    height: 600px;
+}
+.per50{
+    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-}
+    align-items: flex-start;
 
-.how-it-works-content {
-    max-width: 600px;
 }
+.per50 h2{
+    font-size: 35px;
+    font-weight: bolder;
 
-.how-it-works-content h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
 }
-
-.highlight {
-    color: #6a0dad; /* Change color as per design */
-}
-
-.steps {
-    margin-top: 2rem;
-}
-
-.step {
+.bullet-point{
     display: flex;
     align-items: center;
-    margin: 1rem 0;
-}
+ 
 
-.step-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 1rem;
 }
-
-.star-tutors-section {
-    margin-top: 4rem;
-    text-align: center;
+.bullet-point img{
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 10px;
 }
-
-.tutor-cards {
-    margin-top: 2rem;
+.bullet-point p{
+    padding-top: 10px;
 }
-
-.tutor-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.bullet-point h3{
+    margin-top: 20px;
+}
+@media (max-width: 1200px) {
+    .per90-img{
+        height: 400px;
+    }
+    .per50{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+}
+@media (max-width: 1000px) {
+    .per90{
+        flex-direction: column;
+        align-items: center;
+    }
+    .per90-img{
+        width: 400px;
+    }
+    .per50{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+}
+@media (max-width: 400px) {
+    .per90{
+        flex-direction: column;
+        align-items: center;
+    }
+    .per90-img{
+        width: 320px;
+    }
+    .per50{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
 }

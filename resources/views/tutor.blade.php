@@ -1,38 +1,48 @@
-<div class="how-it-works-section">
-    <div class="how-it-works-content">
+<div class="test-100-work">
+<div class="per90">
+    <img class="per90-img" src="images/howwork.png" alt="" srcset="">
+    <div class="per50" >
         <h2>How It <span class="highlight">Works ?</span></h2>
-        <p>Joining Trusir is a straightforward process. Register, share your expertise, and connect with students seeking guidance in your subject area.</p>
-        <div class="steps">
-            <div class="step">
-                <img src="icon-enquiry.png" alt="Enquiry Icon" class="step-icon">
+        <br>
+        <p>Joining Trusir is a straightforward process. Register, share your expertise, and connect with students seeking guidance in your subject area. 
+        </p>
+        <div class="work-bullets">
+            <br>
+            <div class="bullet-point">
+                
+                <img src="images/enquery.png" alt="" srcset="">
                 <div>
-                    <h3>Enquiry</h3>
-                    <p>Joining Trusir is a straightforward process. Register, share your expertise, and connect.</p>
-                </div>
-            </div>
-            <div class="step">
-                <img src="icon-registration.png" alt="Registration Icon" class="step-icon">
-                <div>
-                    <h3>Registration</h3>
-                    <p>Joining Trusir is a straightforward process. Register, share your expertise, and connect.</p>
-                </div>
-            </div>
-            <div class="step">
-                <img src="icon-get-tutor.png" alt="Get a Tutor Icon" class="step-icon">
-                <div>
-                    <h3>Get A Tutor</h3>
-                    <p>Joining Trusir is a straightforward process. Register, share your expertise, and connect.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="star-tutors-section">
-        <h2>Our <span class="highlight">Star Tutors</span> brings a wealth of experience</h2>
-        <p>Meet our star tutors – the backbone of Trusir. Handpicked for their expertise and passion, they’re not just teachers but mentors who bring out the best in our students. With proven track records in their subjects, our tutors are here to guide you towards academic success.</p>
-        <div class="tutor-cards">
-            <!-- Single Image Card for Tutor Profiles -->
-            <img src="single-tutor-image.png" alt="Star Tutors" class="tutor-image">
+                    <h3 class="highlight">Enquiry</h3>
+                    
+                    <p>Joining Trusir is a straightforward process. Register, share your <br>expertise, and connect </p>
+                </div>
+            </div>
+            <br>
+            <div class="bullet-point">
+                
+                <img src="images/reg.png" alt="" srcset="">
+                <div>
+
+                    <h3 class="highlight">Registration</h3>
+                    
+                    <p>Joining Trusir is a straightforward process. Register, share your <br>expertise, and connect 
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="bullet-point">
+                
+                <img src="images/tour.png" alt="" srcset="">
+                <div>
+
+                    <h3 class="highlight">Get A Tutor</h3>
+                    
+                    <p>Joining Trusir is a straightforward process. Register, share your    <br> expertise, and connect 
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 </div>
